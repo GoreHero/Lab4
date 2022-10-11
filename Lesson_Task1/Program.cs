@@ -16,14 +16,7 @@ namespace Lesson_Task1
                 
                 for (int j = 0; j < 10; j++)
                 {
-                    if (i == j)
-                    {
-                        Console.Write(" " + i * j);
-                        //Console.WriteLine("{0} * {1} = {2}", i, j, i * j);
-                        continue;
-                        //break;
-                    }
-
+                    Console.WriteLine("{0} * {1} = {2}", i, j, i * j);
                 }
 
             }
